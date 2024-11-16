@@ -36,3 +36,30 @@ nav a {
   color: white;
   text-decoration: none;
 }
+/*HOVER Y FOCUS AL NAV*/
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 20px;
+}
+section h2 {
+  text-align: left;
+  margin: 20px;
+}
+section ol {
+  display: list-item;
+  justify-content: left;
+}
+section li {
+  margin: 0 10px;
+  list-style-type: decimal;
+}
+section a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* AÑADIR HOVER A LOS ENLACES */
+/* AÑADIR FOCUS A LOS ENLACES */
