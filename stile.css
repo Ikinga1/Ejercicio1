@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+header {
+  background-image: url(https://img1.wallspic.com/crops/8/9/0/4/14098/14098-desenfoque_gaussiano-2048x1152.jpg);
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  color: black;
+  text-align: center;
+  font: 2em;
+}
+nav {
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  flex: 1;
+  text-align: center;
+}
+nav a {
+  display: block;
+  padding: 20xp 0;
+  color: white;
+  text-decoration: none;
+}
