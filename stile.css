@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
   background-image: url(https://img1.wallspic.com/crops/8/9/0/4/14098/14098-desenfoque_gaussiano-2048x1152.jpg);
@@ -44,22 +44,30 @@ section {
   margin-bottom: 20px;
 }
 section h2 {
-  text-align: left;
+  text-align: center;
   margin: 20px;
 }
-section ol {
-  display: list-item;
-  justify-content: left;
+section ul {
+  display: flex;
+  justify-content: space-around;
 }
 section li {
   margin: 0 10px;
   list-style-type: decimal;
 }
+/* SUSTITUIR EL PUNTO DE LA LISTA POR LA X */
 section a {
   color: black;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2em;
 }
+/* AÑADIR CORCHETES A LOS ENLACES */
 /* AÑADIR HOVER A LOS ENLACES */
 /* AÑADIR FOCUS A LOS ENLACES */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
