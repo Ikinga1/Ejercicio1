@@ -32,13 +32,15 @@ nav li {
 }
 nav a {
   display: block;
-  padding: 20xp 0;
+  padding: 20px 0;
   color: white;
   text-decoration: none;
 }
 /*HOVER Y FOCUS AL NAV*/
 main {
   padding: 20px;
+  background-color: lightgray;
+  color: black;
 }
 section {
   margin-bottom: 20px;
